@@ -1,0 +1,1 @@
+function e(e){let t=Math.floor(e/60),n=e%60;return`${t.toString().padStart(2,`0`)}:${n.toString().padStart(2,`0`)}`}function t(e){if(e<60)return`${e}秒`;let t=Math.floor(e/60),n=e%60;return n>0?`${t}分${n}秒`:`${t}分钟`}function n(e){return new Date(e).toLocaleDateString(`zh-CN`,{year:`numeric`,month:`2-digit`,day:`2-digit`})}export{t as n,e as r,n as t};

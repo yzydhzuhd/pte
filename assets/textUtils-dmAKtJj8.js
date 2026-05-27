@@ -1,0 +1,1 @@
+function e(e,t){let n=e.trim().toLowerCase().split(/\s+/),r=t.trim().toLowerCase().split(/\s+/),i=0;for(let e=0;e<Math.max(n.length,r.length);e++)e<n.length&&e<r.length&&n[e]===r[e]&&i++;return{correct:i,total:r.length}}export{e as t};

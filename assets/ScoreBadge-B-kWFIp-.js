@@ -1,0 +1,1 @@
+import{s as e}from"./index-_mD65QVT.js";var t=e();function n({score:e,maxScore:n}){let r=n>0?e/n:0,i=`text-red-600 bg-red-50`;return r>=.8?i=`text-green-600 bg-green-50`:r>=.5&&(i=`text-yellow-600 bg-yellow-50`),(0,t.jsxs)(`span`,{className:`inline-flex items-center px-2 py-0.5 rounded-md text-sm font-bold ${i}`,children:[e,`/`,n]})}export{n as t};
